@@ -9,6 +9,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17C7721B-54B6-4AD5-9788-AC860529170A}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
+		TestRail = .\TestRail.trsd
 	EndProjectSection
 EndProject
 Global

@@ -7,7 +7,31 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="1466f074-23df-4e4d-be9e-13356098ddb9"
+			name="CloseApp"
+			ref="77ab8d2f-a395-4445-bd62-a5883d1ff4d6"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1b070f88-894b-4057-9bb8-e45cf2a730f8"
+			name="OpenApp"
+			ref="a6eb7bf4-f9e7-4128-b7d8-0cb0a6919f5e"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="1c16bb7e-595b-461c-9e69-d08098e5a8a4"
+			name="OpenApp"
+			ref="a6eb7bf4-f9e7-4128-b7d8-0cb0a6919f5e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1c461e10-6652-400d-8db2-929c7dcd468d"
+			name="ValidateEmptyTable"
+			ref="1e4da0d6-9f36-4377-9566-3f4e169ee927"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="368853cd-c8c0-4888-891c-c49c9e918b49"
 			name="OpenApp"
 			ref="a6eb7bf4-f9e7-4128-b7d8-0cb0a6919f5e"
 			type="Recording">
@@ -47,6 +71,12 @@
 			ref="a5a8ffb8-0af4-41fd-ba39-a39a7411498e"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="52a722c3-8064-4962-9cf9-55c738baaaa2"
+			name="CloseApp"
+			ref="77ab8d2f-a395-4445-bd62-a5883d1ff4d6"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="56161450-dc0f-4165-bc76-0badeb4a7c4c"
 			name="MakTech"
@@ -70,6 +100,10 @@
 			ref="d1c8cc83-c004-4a34-b189-b5bcdef8c2f9"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="69174ae9-24e3-40ce-9713-0f94909af619"
+			name="From_Ranorex_TC">
+			</testcase>
 			<testmodule
 			id="696fbbc1-9f58-4b78-bbb5-482086d5d5d4"
 			name="ClearApp"
@@ -88,6 +122,10 @@
 			ref="77ab8d2f-a395-4445-bd62-a5883d1ff4d6"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="b6689917-b3a7-446b-8a11-fa10e755fb3a"
+			name="I_need_to_automate_this_TC">
+			</testcase>
 			<testcase
 			id="ca95b1a3-0778-4e3a-b969-8b254c248513"
 			name="AddOneUser_TC">
@@ -175,6 +213,34 @@
 							name="CloseApp">
 							</testmodule>
 						</teardown>
+					</testcase>
+					<testcase
+					id="69174ae9-24e3-40ce-9713-0f94909af619"
+					name="From_Ranorex_TC">
+						<testmodule
+						id="1b070f88-894b-4057-9bb8-e45cf2a730f8"
+						name="OpenApp">
+						</testmodule>
+						<testmodule
+						id="52a722c3-8064-4962-9cf9-55c738baaaa2"
+						name="CloseApp">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="b6689917-b3a7-446b-8a11-fa10e755fb3a"
+					name="I_need_to_automate_this_TC">
+						<testmodule
+						id="368853cd-c8c0-4888-891c-c49c9e918b49"
+						name="OpenApp">
+						</testmodule>
+						<testmodule
+						id="1c461e10-6652-400d-8db2-929c7dcd468d"
+						name="ValidateEmptyTable">
+						</testmodule>
+						<testmodule
+						id="1466f074-23df-4e4d-be9e-13356098ddb9"
+						name="CloseApp">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>

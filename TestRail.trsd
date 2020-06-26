@@ -1,0 +1,106 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "db442a2b-8c91-4a70-8290-f91262de00e1/37a1eba8-af21-41c8-9e47-42f02d9df885",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/db442a2b-8c91-4a70-8290-f91262de00e1",
+      "Name": "MakTech"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P33",
+    "Pid": null,
+    "Name": "MakTech",
+    "BaseUri": "https://ranorexintegration.testrail.io/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/db442a2b-8c91-4a70-8290-f91262de00e1",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "MakTech"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "db442a2b-8c91-4a70-8290-f91262de00e1/37a1eba8-af21-41c8-9e47-42f02d9df885",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/db442a2b-8c91-4a70-8290-f91262de00e1",
+        "Name": "MakTech"
+      },
+      "Tr": {
+        "Id": "S41",
+        "Pid": "P33",
+        "Name": "MakTech"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G56",
+        "Pid": "S41",
+        "Name": "MakTech"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "37a1eba8-af21-41c8-9e47-42f02d9df885/ca95b1a3-0778-4e3a-b969-8b254c248513",
+        "Pid": "db442a2b-8c91-4a70-8290-f91262de00e1/37a1eba8-af21-41c8-9e47-42f02d9df885",
+        "Name": "AddOneUser_TC"
+      },
+      "Tr": {
+        "Id": "C92",
+        "Pid": "G56",
+        "Name": "AddOneUser_TC"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "37a1eba8-af21-41c8-9e47-42f02d9df885/4163c559-9e59-467b-9ca4-4b3b733cb3bd",
+        "Pid": "db442a2b-8c91-4a70-8290-f91262de00e1/37a1eba8-af21-41c8-9e47-42f02d9df885",
+        "Name": "EmptyTableByDefault_TC"
+      },
+      "Tr": {
+        "Id": "C93",
+        "Pid": "G56",
+        "Name": "EmptyTableByDefault_TC"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "37a1eba8-af21-41c8-9e47-42f02d9df885/b6689917-b3a7-446b-8a11-fa10e755fb3a",
+        "Pid": "db442a2b-8c91-4a70-8290-f91262de00e1/37a1eba8-af21-41c8-9e47-42f02d9df885",
+        "Name": "I_need_to_automate_this_TC"
+      },
+      "Tr": {
+        "Id": "C94",
+        "Pid": "G56",
+        "Name": "I_need_to_automate_this_TC"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "37a1eba8-af21-41c8-9e47-42f02d9df885/69174ae9-24e3-40ce-9713-0f94909af619",
+        "Pid": "db442a2b-8c91-4a70-8290-f91262de00e1/37a1eba8-af21-41c8-9e47-42f02d9df885",
+        "Name": "From_Ranorex_TC"
+      },
+      "Tr": {
+        "Id": "C95",
+        "Pid": "G56",
+        "Name": "From_Ranorex_TC"
+      }
+    }
+  ]
+}
