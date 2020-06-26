@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MakTech"
+      id="998cda8b-8095-48e6-ab8e-6921833306eb"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MakTech"
+      id="998cda8b-8095-48e6-ab8e-6921833306eb"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

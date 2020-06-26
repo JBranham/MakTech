@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a6eb7bf4-f9e7-4128-b7d8-0cb0a6919f5e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenApp"
+	namespace="MakTech">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/web-testing-examples/vip/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="eb4616a1-c415-4998-a740-e622ce76f411"
+	name="MakTechRepository"
+	relativepath="MakTechRepository.rxrep">
+		<codegen
+		classname="MakTechRepository"
+		namespace="MakTech">
+		</codegen>
+		<rootfolder
+		id="dc804836-de0a-4477-b117-bd4735491488"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

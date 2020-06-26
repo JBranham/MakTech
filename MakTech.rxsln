@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakTech", "MakTech\MakTech.csproj", "{DB442A2B-8C91-4A70-8290-F91262DE00E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17C7721B-54B6-4AD5-9788-AC860529170A}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB442A2B-8C91-4A70-8290-F91262DE00E1}.Debug|x86.Build.0 = Debug|x86
+		{DB442A2B-8C91-4A70-8290-F91262DE00E1}.Debug|x86.ActiveCfg = Debug|x86
+		{DB442A2B-8C91-4A70-8290-F91262DE00E1}.Release|x86.Build.0 = Release|x86
+		{DB442A2B-8C91-4A70-8290-F91262DE00E1}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
