@@ -79,8 +79,8 @@ namespace MakTech
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='VIP count: 1') on item 'MyApp.Count'.", repo.MyApp.CountInfo, new RecordItemIndex(0));
-            Validate.AttributeEqual(repo.MyApp.CountInfo, "InnerText", "VIP count: 1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='VIP count: 999') on item 'MyApp.Count'.", repo.MyApp.CountInfo, new RecordItemIndex(0));
+            Validate.AttributeEqual(repo.MyApp.CountInfo, "InnerText", "VIP count: 999");
             Delay.Milliseconds(100);
             
         }
